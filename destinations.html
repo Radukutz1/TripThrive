@@ -3,52 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TripThrive | Destinații</title>
+  <title>TripThrive | Destinatii</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="js/data.js" defer></script>
   <script src="js/main.js" defer></script>
 </head>
+
 <body>
+/* Sectiunea Header: contine logo-ul site-ului si meniul de navigare */
   <header class="navbar glass">
     <a href="index.html" class="logo">
       <img src="images/topleftlogo.png" alt="TripThrive Logo" class="logo-img">
       <h1>TripThrive</h1>
     </a>
     <nav>
-      <a href="index.html">Acasă</a>
-      <a href="destinations.html" class="active">Destinații</a>
+/* Link-urile paginii - clasa active evidentiaza pagina curenta de destinatii */
+      <a href="index.html">Acasa</a>
+      <a href="destinations.html" class="active">Destinatii</a>
       <a href="itinerary.html">Itinerar</a>
     </nav>
   </header>
 
+/* Continutul principal: organizat pe categorii de calatorie */
   <main class="page-content">
-    <h2>Descoperă destinațiile</h2>
-    <p class="page-subtitle">Alege locurile care te inspiră — mare, oraș, sau munte.</p>
+    <h2>Descopera destinatiile</h2>
+    <p class="page-subtitle">Alege locurile care te inspira — mare, oras, sau munte.</p>
 
+/* Sectiunea Mare: grid-ul id mareGrid va fi populat din JavaScript */
     <section id="mare" class="dest-section">
-      <h3>🏖️ Destinații la Mare</h3>
+      <h3>🏖️ Destinatii la Mare</h3>
       <div class="dest-grid" id="mareGrid"></div>
     </section>
 
+/* Sectiunea Oras: grid-ul id orasGrid va fi populat din JavaScript */
     <section id="oras" class="dest-section">
-      <h3>🏙️ Orașe de explorat</h3>
+      <h3>🏙️ Orase de explorat</h3>
       <div class="dest-grid" id="orasGrid"></div>
     </section>
 
+/* Sectiunea Munte: grid-ul id munteGrid va fi populat din JavaScript */
     <section id="munte" class="dest-section">
       <h3>⛰️ Aventuri la munte</h3>
       <div class="dest-grid" id="munteGrid"></div>
     </section>
   </main>
 
+/* Subsolul paginii cu informatiile de copyright */
   <footer>
     <p>© 2025 TripThrive</p>
   </footer>
 </body>
 </html>
-
-
-
-
