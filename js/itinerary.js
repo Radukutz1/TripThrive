@@ -1,4 +1,3 @@
-/* ---------- Initializarea paginii la incarcare ---------- */
 window.onload = () => {
   // Selectarea elementului HTML unde va fi afisata lista de destinatii
   const itineraryList = document.getElementById("itineraryList");
