@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripThrive | Itinerarul Tau</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="js/itinerary.js" defer></script>
+</head>
+<body>
+  <header class="navbar glass">
+    <a href="index.html" class="logo">
+      <img src="images/topleftlogo.png" alt="TripThrive Logo" class="logo-img">
+      <h1>TripThrive</h1>
+    </a>
+    <nav>
+/* Meniul de navigare*/
+      <a href="index.html">Acasa</a>
+      <a href="destinations.html">Destinatii</a>
+      <a href="itinerary.html" class="active">Itinerar</a>
+    </nav>
+  </header>
+
+/* Zona de continut unde se vor afisa elementele salvate de utilizator */
+  <main class="page-content">
+    <h2>Itinerarul tau</h2>
+/* Div-ul itineraryList este containerul gol care va fi populat dinamic prin script-ul JS */
+    <div id="itineraryList" class="dest-grid"></div>
+  </main>
+
+/* Sectiunea Footer: finalul paginii cu informatiile despre autor/an */
+  <footer>
+    <p>© 2025 TripThrive</p>
+  </footer>
+</body>
+</html>
