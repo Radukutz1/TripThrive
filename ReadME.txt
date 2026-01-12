@@ -38,4 +38,3 @@ Codul sursă al aplicației este disponibil pe GitHub:
 
 https://github.com/Radukutz1/TripThrive
 
-
